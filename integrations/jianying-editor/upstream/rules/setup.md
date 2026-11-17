@@ -1,0 +1,74 @@
+---
+name: setup
+description: Python script initialization and environment setup rules.
+metadata:
+  tags: setup, python, import, sys.path
+---
+
+> 分发说明：本文件为上游方法文档快照；本次仅将未收录资源的 Markdown 链接指向上游。文中命令、`scripts/`、`assets/`、`demos/` 等路径按完整上游安装解释，本仓库不包含这些软件与资源。不要把原文中的历史验收声明当成本分发已测试。
+
+
+# Environment Initialization
+
+Use a single reliable bootstrap path. Do not assume helper files outside this repo.
+Always support multiple editor layouts and allow explicit override.
+
+## Recommended Bootstrap (Mandatory)
+
+```python
+import os
+import sys
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+env_root = os.getenv("JY_SKILL_ROOT", "").strip()
+skill_candidates = [
+    env_root,
+    os.path.join(current_dir, ".agent", "skills", "jianying-editor"),
+    os.path.join(current_dir, ".trae", "skills", "jianying-editor"),
+    os.path.join(current_dir, ".claude", "skills", "jianying-editor"),
+    os.path.join(current_dir, "skills", "jianying-editor"),
+    os.path.abspath(".agent/skills/jianying-editor"),
+    os.path.dirname(current_dir),  # when script is under examples/
+]
+
+scripts_path = None
+attempted = []
+for p in skill_candidates:
+    if not p:
+        continue
+    p = os.path.abspath(p)
+    attempted.append(p)
+    if os.path.exists(os.path.join(p, "scripts", "jy_wrapper.py")):
+        scripts_path = os.path.join(p, "scripts")
+        break
+
+if not scripts_path:
+    raise ImportError(
+        "Could not find jianying-editor/scripts/jy_wrapper.py\\nTried:\\n- "
+        + "\\n- ".join(attempted)
+    )
+
+if scripts_path not in sys.path:
+    sys.path.insert(0, scripts_path)
+
+from jy_wrapper import JyProject
+```
+
+## Notes
+
+- Do not use `from jy import JyProject` unless your project explicitly provides `jy.py`.
+- Prefer setting `JY_SKILL_ROOT` in mixed editor environments.
+- Put business scripts in the user workspace, not inside the skill repo.
+- Always call `project.save()` at the end.
+
+## macOS: FFmpeg PATH
+
+macOS 上通过 Homebrew 安装的 FFmpeg 位于 `/opt/homebrew/bin/`。如果脚本执行时提示找不到 `ffmpeg` 或 `ffprobe`，在 bootstrap 代码中追加：
+
+```python
+import sys
+if sys.platform == "darwin":
+    homebrew_bin = "/opt/homebrew/bin"
+    if homebrew_bin not in os.environ.get("PATH", ""):
+        os.environ["PATH"] = homebrew_bin + ":" + os.environ.get("PATH", "")
+```

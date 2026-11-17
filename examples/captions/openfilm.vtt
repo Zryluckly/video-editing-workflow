@@ -1,0 +1,26 @@
+WEBVTT
+
+STYLE
+::cue { font: 700 4.44cqmin/1.2 "Microsoft YaHei", sans-serif; color: #ffffff; background: transparent; display: inline-block; box-sizing: border-box; max-width: 100%; padding: 0.16em 0.29167em 0.2em; position: relative; isolation: isolate; -webkit-text-stroke: 0.042em #11130f; paint-order: stroke fill; }
+::cue::before { content: ""; position: absolute; z-index: -1; inset: 0 var(--caption-ink-right,0em) 0 var(--caption-ink-left,0em); background: rgba(17, 19, 15, 0.8); border-radius: 0.16em; }
+::cue(#1) { --caption-ink-left: 0.02083em; --caption-ink-right: 0.02083em; }
+::cue(#2) { --caption-ink-left: 0.02083em; --caption-ink-right: 0.02083em; }
+::cue(#3) { --caption-ink-left: 0.02083em; --caption-ink-right: 0.02083em; }
+::cue(#4) { --caption-ink-left: 0.02083em; --caption-ink-right: 0.06250em; }
+
+1
+00:00:00.000 --> 00:00:02.500 line:78.4896%,center size:83% align:center
+先看完整表达
+
+2
+00:00:02.500 --> 00:00:05.000 line:78.4896%,center size:83% align:center
+字幕和画面同步
+保留必要的前后文
+
+3
+00:00:05.000 --> 00:00:07.500 line:78.4896%,center size:83% align:center
+两轮复查气口与停顿
+
+4
+00:00:07.500 --> 00:00:10.000 line:78.4896%,center size:83% align:center
+最后核对实际导出

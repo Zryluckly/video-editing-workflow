@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "license": "MIT",
+  "implementation": "../../scripts/motion_pack.py",
+  "generator": "../../scripts/build_motion_pack.py",
+  "example": "../../examples/motion/demo.json",
+  "preview": "../../examples/motion/preview.html",
+  "canvas": {"width": 1080, "height": 1920},
+  "safe_bounds": {"left": 72, "right": 954, "top": 220, "bottom": 1150},
+  "clock": "Half-open [start, end) absolute integer frame ranges; HTML frame(seconds).",
+  "renderers": ["standalone SVG/HTML", "ASS v4+ vector drawing and text"],
+  "dependencies": {"generator": "Python 3.10+ standard library", "browser": "modern SVG browser", "fonts_bundled": false, "third_party_assets_bundled": false},
+  "navigation": {"name": "chapter_progress", "description": "全程章节轨、当前章节和真实增长进度；已完成章节保持填充。"},
+  "templates": [
+    {"kind": "focus", "items": "0", "description": "单句重点标题的淡入上移与离场。"},
+    {"kind": "steps", "items": "1..4", "description": "带序号的逐项步骤条。"},
+    {"kind": "compare", "items": "2..3", "description": "并排对照卡，各列独立出现。"},
+    {"kind": "chain", "items": "1..4", "description": "纵向推进链，后一环与连接箭头同步出现。"},
+    {"kind": "active_steps", "items": "1..4", "description": "逐项步骤及随帧切换的当前步骤标记。"},
+    {"kind": "network", "items": "3..5", "description": "一个中心与二到四个分支，分支和关系箭头逐项出现。"},
+    {"kind": "loop", "items": "3", "description": "三节点循环，最后单独出现回路。"},
+    {"kind": "timeline", "items": "2..3", "description": "带阶段/时间标签的事件链。"},
+    {"kind": "question", "items": "2..4", "description": "题干、逐项选项、答案高亮与解析依次呈现。"}
+  ],
+  "provenance": {
+    "code": "Repository author's original drawing and animation code, generalized from portrait editing projects; public adaptations share the repository MIT license.",
+    "examples": "Constructed neutral demonstration text; not factual claims, original scripts, brands or historical examples.",
+    "excluded": ["portraits", "original dialogue", "brands", "footage", "audio", "third-party implementation code", "font binaries", "private absolute paths"],
+    "external_tools": "Playwright, Chromium and FFmpeg may be used for optional local verification; none is bundled or relicensed as original code."
+  }
+}

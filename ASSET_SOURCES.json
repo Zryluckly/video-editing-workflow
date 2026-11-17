@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-17",
+  "scope": "Existing redistributable sound assets and editable .motion template; no source footage, narration, private project, credentials or software installer.",
+  "assets": [
+    {
+      "path": "assets/sfx/cc0/original-previews/freesound-610549-hq-preview.mp3",
+      "bytes": 8351,
+      "sha256": "aa23cf8790f2aa40998a3ad27552c2e8b5806420948ef6944d4bd0851cc5b9ca",
+      "kind": "sound",
+      "title": "Cool Filtered Snare",
+      "author": "deadrobotmusic",
+      "sourceId": "610549",
+      "sourcePage": "https://freesound.org/people/deadrobotmusic/sounds/610549/",
+      "downloadUrl": "https://cdn.freesound.org/previews/610/610549_11532701-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "Cool Filtered Snare by deadrobotmusic, Freesound #610549, CC0 1.0",
+      "quality": "Official HQ MP3 preview; not the original uploaded lossless file",
+      "processing": "Copied unchanged from the recorded download",
+      "audio": {
+        "durationSeconds": 0.287347,
+        "sampleRate": 44100,
+        "channels": 2
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/original-previews/freesound-265604-hq-preview.mp3",
+      "bytes": 12472,
+      "sha256": "4b51ca176ed8fcfa1e5fc54cb273988a8f20adafb4db07bc75cfe914c5781cac",
+      "kind": "sound",
+      "title": "Clap 1",
+      "author": "Hard3eat",
+      "sourceId": "265604",
+      "sourcePage": "https://freesound.org/people/Hard3eat/sounds/265604/",
+      "downloadUrl": "https://cdn.freesound.org/previews/265/265604_2278554-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "Clap 1 by Hard3eat, Freesound #265604, CC0 1.0",
+      "quality": "Official HQ MP3 preview; not the original uploaded lossless file",
+      "processing": "Copied unchanged from the recorded download",
+      "audio": {
+        "durationSeconds": 0.470204,
+        "sampleRate": 44100,
+        "channels": 2
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/original-previews/freesound-762781-hq-preview.mp3",
+      "bytes": 10856,
+      "sha256": "7412b3008b1500d3c73f117602c36698133b703e397c994edb5c2fd469fab2b2",
+      "kind": "sound",
+      "title": "BubblePopping",
+      "author": "Sess8it",
+      "sourceId": "762781",
+      "sourcePage": "https://freesound.org/people/Sess8it/sounds/762781/",
+      "downloadUrl": "https://cdn.freesound.org/previews/762/762781_6736069-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "BubblePopping by Sess8it, Freesound #762781, CC0 1.0",
+      "quality": "Official HQ MP3 preview; not the original uploaded lossless file",
+      "processing": "Copied unchanged from the recorded download",
+      "audio": {
+        "durationSeconds": 0.391837,
+        "sampleRate": 44100,
+        "channels": 1
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/original-previews/freesound-401969-hq-preview.mp3",
+      "bytes": 157176,
+      "sha256": "c1156f1bc14d41383ee015370afd07ddb72d40242d458ce98a703bf69256a064",
+      "kind": "sound",
+      "title": "Pop, plop, plops, poing and waterdrop imitate",
+      "author": "misjoc",
+      "sourceId": "401969",
+      "sourcePage": "https://freesound.org/people/misjoc/sounds/401969/",
+      "downloadUrl": "https://cdn.freesound.org/previews/401/401969_3372256-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "Pop, plop, plops, poing and waterdrop imitate by misjoc, Freesound #401969, CC0 1.0",
+      "quality": "Official HQ MP3 preview; not the original uploaded lossless file",
+      "processing": "Copied unchanged from the recorded download",
+      "audio": {
+        "durationSeconds": 10.248,
+        "sampleRate": 48000,
+        "channels": 1
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/original-previews/freesound-784205-hq-preview.mp3",
+      "bytes": 66096,
+      "sha256": "e9970fe8ca6514697ff212c9f4d98b3c296bc6164590c0c7526e4c818cae5b51",
+      "kind": "sound",
+      "title": "Cartoon Explosion (designed on cassette tape lol)",
+      "author": "modusmogulus",
+      "sourceId": "784205",
+      "sourcePage": "https://freesound.org/people/modusmogulus/sounds/784205/",
+      "downloadUrl": "https://cdn.freesound.org/previews/784/784205_15956618-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "Cartoon Explosion (designed on cassette tape lol) by modusmogulus, Freesound #784205, CC0 1.0",
+      "quality": "Official HQ MP3 preview; not the original uploaded lossless file",
+      "processing": "Copied unchanged from the recorded download",
+      "audio": {
+        "durationSeconds": 3.73551,
+        "sampleRate": 44100,
+        "channels": 2
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/original-previews/freesound-328833-hq-preview.mp3",
+      "bytes": 25779,
+      "sha256": "f91ef8e586a607f12de3697fb94a12d53e5a7b42cbfa1ba1beedd5991f9142f6",
+      "kind": "sound",
+      "title": "Small explosion",
+      "author": "dinodilopho",
+      "sourceId": "328833",
+      "sourcePage": "https://freesound.org/people/dinodilopho/sounds/328833/",
+      "downloadUrl": "https://cdn.freesound.org/previews/328/328833_4732572-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "Small explosion by dinodilopho, Freesound #328833, CC0 1.0",
+      "quality": "Official HQ MP3 preview; not the original uploaded lossless file",
+      "processing": "Copied unchanged from the recorded download",
+      "audio": {
+        "durationSeconds": 1.149388,
+        "sampleRate": 44100,
+        "channels": 2
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/ready/filtered-snare-610549-trim.wav",
+      "bytes": 57702,
+      "sha256": "47f8bb934351379e31d9feb48f7d8d0a121523a1fb78752b811b0c3c98050466",
+      "kind": "sound",
+      "title": "Cool Filtered Snare",
+      "author": "deadrobotmusic",
+      "sourceId": "610549",
+      "sourcePage": "https://freesound.org/people/deadrobotmusic/sounds/610549/",
+      "downloadUrl": "https://cdn.freesound.org/previews/610/610549_11532701-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "Cool Filtered Snare by deadrobotmusic, Freesound #610549, CC0 1.0",
+      "quality": "Processed WAV derived from official HQ MP3 preview; not lossless source quality",
+      "processing": "Preview interval 0.000-0.200 s; 48 kHz 24-bit stereo; peak target -2 dB, 1 ms fade in and 15 ms fade out.",
+      "parentAsset": "assets/sfx/cc0/original-previews/freesound-610549-hq-preview.mp3",
+      "audio": {
+        "durationSeconds": 0.2,
+        "sampleRate": 48000,
+        "channels": 2
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/ready/clap-265604-trim.wav",
+      "bytes": 83622,
+      "sha256": "5ab775580daaca1ce870eed6828a866cd2bef71b64d512aa84492ec073100bd5",
+      "kind": "sound",
+      "title": "Clap 1",
+      "author": "Hard3eat",
+      "sourceId": "265604",
+      "sourcePage": "https://freesound.org/people/Hard3eat/sounds/265604/",
+      "downloadUrl": "https://cdn.freesound.org/previews/265/265604_2278554-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "Clap 1 by Hard3eat, Freesound #265604, CC0 1.0",
+      "quality": "Processed WAV derived from official HQ MP3 preview; not lossless source quality",
+      "processing": "Preview interval 0.000-0.290 s; 48 kHz 24-bit stereo; peak target -2 dB, 1 ms fade in and 15 ms fade out.",
+      "parentAsset": "assets/sfx/cc0/original-previews/freesound-265604-hq-preview.mp3",
+      "audio": {
+        "durationSeconds": 0.29,
+        "sampleRate": 48000,
+        "channels": 2
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/ready/mouth-bloop-401969-trim.wav",
+      "bytes": 20046,
+      "sha256": "73c01a037f0d864d35f3fe2cf2466729609fe9bf58846a5eeaed2b5b91eadfb0",
+      "kind": "sound",
+      "title": "Pop, plop, plops, poing and waterdrop imitate",
+      "author": "misjoc",
+      "sourceId": "401969",
+      "sourcePage": "https://freesound.org/people/misjoc/sounds/401969/",
+      "downloadUrl": "https://cdn.freesound.org/previews/401/401969_3372256-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "Pop, plop, plops, poing and waterdrop imitate by misjoc, Freesound #401969, CC0 1.0",
+      "quality": "Processed WAV derived from official HQ MP3 preview; not lossless source quality",
+      "processing": "Preview interval 3.742-3.950 s, decoded PCM crop; no synthesis, time or pitch change, EQ or compression.",
+      "parentAsset": "assets/sfx/cc0/original-previews/freesound-401969-hq-preview.mp3",
+      "audio": {
+        "durationSeconds": 0.208,
+        "sampleRate": 48000,
+        "channels": 1
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/ready/small-explosion-328833-trim.wav",
+      "bytes": 174606,
+      "sha256": "23237794570544330dc105a16eaf8aed3f2b16d2e30b06726581cabf65f36eb9",
+      "kind": "sound",
+      "title": "Small explosion",
+      "author": "dinodilopho",
+      "sourceId": "328833",
+      "sourcePage": "https://freesound.org/people/dinodilopho/sounds/328833/",
+      "downloadUrl": "https://cdn.freesound.org/previews/328/328833_4732572-hq.mp3",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "Small explosion by dinodilopho, Freesound #328833, CC0 1.0",
+      "quality": "Processed WAV derived from official HQ MP3 preview; not lossless source quality",
+      "processing": "Preview interval 0.046-0.955 s, decoded PCM crop.",
+      "parentAsset": "assets/sfx/cc0/original-previews/freesound-328833-hq-preview.mp3",
+      "audio": {
+        "durationSeconds": 0.909,
+        "sampleRate": 48000,
+        "channels": 2
+      }
+    },
+    {
+      "path": "assets/sfx/cc0/ready/paper-slide-470189-soft.wav",
+      "bytes": 35642,
+      "sha256": "daf3bb87bd9a6508688899b183bc5bc47c139bbe30d495e54fd76847cc05e938",
+      "kind": "sound",
+      "title": "55_Coger_Foto.wav (Sliding Paper)",
+      "author": "Atrius1",
+      "sourceId": "470189",
+      "sourcePage": "https://freesound.org/people/Atrius1/sounds/470189/",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseNotice": "LICENSES/third-party-assets/CC0-1.0-NOTICE.md",
+      "attributionRequired": false,
+      "suggestedCredit": "55_Coger_Foto.wav (Sliding Paper) by Atrius1, Freesound #470189, CC0 1.0",
+      "quality": "Processed PCM WAV derived from an official HQ lossy MP3 preview",
+      "processing": "Existing full 0.3708125 s asset; highpass 150 Hz, lowpass 4500 Hz, 8 ms onset and 45 ms tail fades; peak target -27.5 dBFS. Copied unchanged.",
+      "sourceEvidence": "Original processing manifest and NB sound-design record agree with copied SHA256. Official Freesound page observed CC0 on 2026-11-17.",
+      "audio": {
+        "durationSeconds": 0.370813,
+        "sampleRate": 48000,
+        "channels": 1
+      }
+    },
+    {
+      "path": "assets/sfx/generated/wood-step.wav",
+      "bytes": 44288,
+      "sha256": "e9d1364e9b90387bec76588fadd027a2cbcc0c23902d2927821f8ada9883ce54",
+      "kind": "sound",
+      "title": "wood-step.wav",
+      "author": "Locally generated with Earshot by the repository owner and assistant",
+      "license": "MIT",
+      "licenseNotice": "LICENSES/third-party-assets/EARSHOT-MIT.txt",
+      "licenseBasis": "Existing locally synthesized output distributed under this repository MIT license; generator copyright and MIT notice are additionally preserved. No third-party recording was sampled.",
+      "sourcePage": "https://github.com/Leonxlnx/earshot",
+      "generatorLicense": "MIT",
+      "generatorLicenseUrl": "https://github.com/Leonxlnx/earshot/blob/main/LICENSE",
+      "generatorRevision": "591fa3e028032e6dce56620a20e932e35667e8d8",
+      "generatorBank": "knock/wood",
+      "localGenerationRecordSha256": "ad101912bb0b83f48543feeba9315ca7a7262fabdea4c7c84646c54cacfc8b92",
+      "processing": "Existing generated file copied byte-for-byte; no new processing.",
+      "downloadUrl": null,
+      "audio": {
+        "durationSeconds": 0.153625,
+        "sampleRate": 48000,
+        "channels": 2
+      }
+    },
+    {
+      "path": "assets/sfx/generated/explosion-blast.wav",
+      "bytes": 316844,
+      "sha256": "8be5122681846f64b4f4a6ccd30336dafa976c2990d35d3ab417b86e073a6859",
+      "kind": "sound",
+      "title": "explosion-blast.wav",
+      "author": "Locally generated with Earshot by the repository owner and assistant",
+      "license": "MIT",
+      "licenseNotice": "LICENSES/third-party-assets/EARSHOT-MIT.txt",
+      "licenseBasis": "Existing locally synthesized output distributed under this repository MIT license; generator copyright and MIT notice are additionally preserved. No third-party recording was sampled.",
+      "sourcePage": "https://github.com/Leonxlnx/earshot",
+      "generatorLicense": "MIT",
+      "generatorLicenseUrl": "https://github.com/Leonxlnx/earshot/blob/main/LICENSE",
+      "generatorRevision": "591fa3e028032e6dce56620a20e932e35667e8d8",
+      "generatorBank": "impact/blast",
+      "localGenerationRecordSha256": "2cf10f19f1be4653f13ab127dd100681864a8a88bca134423405d75a84df543f",
+      "processing": "Existing generated file copied byte-for-byte; no new processing.",
+      "downloadUrl": null,
+      "audio": {
+        "durationSeconds": 1.1,
+        "sampleRate": 48000,
+        "channels": 2
+      }
+    },
+    {
+      "path": "assets/motion-templates/kinetic-tech-zh.motion",
+      "bytes": 17596250,
+      "sha256": "472a95af35f8e0c09c0f7dc2ca0992b7c9a3405c5aa8063730c347fc4e015c21",
+      "kind": "motion-template",
+      "title": "Kinetic Tech / 酷炫科技风",
+      "author": "MotionGit contributors / adunext",
+      "version": "0.2.7-open-beta",
+      "sourcePage": "https://motiongit.com/adunext/385712",
+      "sourceRepository": "https://github.com/motiontemplates/385712",
+      "license": "MIT code; SIL-OFL-1.1 fonts; restricted brand permission",
+      "licenseNotice": "LICENSES/third-party-assets/kinetic-tech/THIRD-PARTY-NOTICES.md",
+      "licenseDetails": {
+        "templateCodeAndGrain": "MIT; preserve copyright and permission notice",
+        "fonts": "Unmodified Anton, Geist/Geist Mono and Noto Sans SC under their included SIL OFL notices",
+        "brand": "Unchanged MotionGit circular brand assets may be redistributed with this template and displayed in videos made with it; no trademark ownership or endorsement is transferred"
+      },
+      "processing": "Original existing .motion copied unchanged; all 331 ZIP entries retained including licenses and integrity.json. No personal envelope or credentials present.",
+      "verification": {
+        "zipCrc": "passed",
+        "integrityEntriesChecked": 330,
+        "declaredAssetsChecked": 279,
+        "hashMismatches": 0,
+        "renderedThisTask": false
+      },
+      "compatibility": "Historical public beta, landscape 1920x1080 60fps. Local metadata is not the current online release. This task checks archive integrity and redistribution basis, not runtime rendering on Windows.",
+      "storage": {
+        "type": "split",
+        "parts": [
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/001.part",
+            "bytes": 524286,
+            "sha256": "80e4321ded7f8e2b6887e266765a699b41b2baa271203ad63e2735ad2e8545f9"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/002.part",
+            "bytes": 524286,
+            "sha256": "3e0a0d4408944e1b935a00ddd37b417279c80f2e0598409c32891b323fc6c660"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/003.part",
+            "bytes": 524286,
+            "sha256": "ea9b20f94ab0da2f671ee4bfe47260dad727338f81bb4b28fbaf5d5d3a214753"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/004.part",
+            "bytes": 524286,
+            "sha256": "977d372af6f8c67b1831e89919b5036d0fd20aadd9586e6dcbff1192caa8f9da"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/005.part",
+            "bytes": 524286,
+            "sha256": "f10ab1379d670319f71b36ceba3bd31121d895638e7fa3d578aa09e4481de9a0"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/006.part",
+            "bytes": 524286,
+            "sha256": "c19ed05865c6d90686220dea7c24fa719074b006634a81cd8a446add9b2334e9"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/007.part",
+            "bytes": 524286,
+            "sha256": "9ad23d4bc8500549134fe3ec6e8e76a2de11b0e77eeac0e2dcec582d7b3bea7f"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/008.part",
+            "bytes": 524286,
+            "sha256": "ca35f2dd113c106ba5d75f99047f10146fa8b5612fef7b82204043d029b9f027"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/009.part",
+            "bytes": 524286,
+            "sha256": "c578cc3284e196ebf3569b23ba2eefd963ae66414ea4bd3c1e4cc66b89014294"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/010.part",
+            "bytes": 524286,
+            "sha256": "66332387bc660d3a17d58d13b155ea9e450f95b32aa3a5ac22b6bb440406c08c"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/011.part",
+            "bytes": 524286,
+            "sha256": "b15ec8152e91c3fcd108fcf6d11aed868a1a2702463e5eff95c499f828ca0e33"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/012.part",
+            "bytes": 524286,
+            "sha256": "b86c4ba45fb4482f64cc5d23ab67ffc9ebe031a53ae2b8757265bfacee83756f"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/013.part",
+            "bytes": 524286,
+            "sha256": "9a9d70703888782f1f072db07292924ef02493153c4d6e2748703030c5c1da90"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/014.part",
+            "bytes": 524286,
+            "sha256": "2e23fce55022dab53b97b6446409b3f68331c8bc46149ef0122a8a6f4f75e778"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/015.part",
+            "bytes": 524286,
+            "sha256": "632fda24d8767c422db8fc284ccfc49e48db01a4042a7c1d2363a74f3ea6622e"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/016.part",
+            "bytes": 524286,
+            "sha256": "079b5feaf3336bb360f14f9cee4befa916ca006789eea124a71b2f78da32e172"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/017.part",
+            "bytes": 524286,
+            "sha256": "fa4d7530f68c187ef1469c5441250244abecb81e460ccb051056b9aed6f942dc"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/018.part",
+            "bytes": 524286,
+            "sha256": "ff2b63d8d48949f5ce7e219d05c17fc224237658ce6bcf1e826fd996e11a161f"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/019.part",
+            "bytes": 524286,
+            "sha256": "a3e86cbecbf6844a48d022dd69bb9ca4ffdc50b978a4792ded883dc2f0b350a6"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/020.part",
+            "bytes": 524286,
+            "sha256": "1b474245d1df3324047a9db9166baa40a3910856222ea1fddf9d095b24b83d36"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/021.part",
+            "bytes": 524286,
+            "sha256": "1df70c6ee1a0814b5011a3602fd75548b087b54cea030ddbd714d0f23eeae880"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/022.part",
+            "bytes": 524286,
+            "sha256": "1cdab462765599242c0084f73cec45f9083755327a2598121615c9280564bcf4"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/023.part",
+            "bytes": 524286,
+            "sha256": "38b32101dc16872a968e47bcc9b96937cd9c0c883b4dbea216bbf6687f8eb72e"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/024.part",
+            "bytes": 524286,
+            "sha256": "ff9dae7eb5052d1247c0642092ac2c29bead68d2904485c98fdf3539777d29bb"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/025.part",
+            "bytes": 524286,
+            "sha256": "07b173469460e7f1ae0834b3321e22586e3472edded346b7718fd05e1ef8cb30"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/026.part",
+            "bytes": 524286,
+            "sha256": "8869b2a59e51a589384ace125e884688ab5c6dab999509865efed161020cc301"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/027.part",
+            "bytes": 524286,
+            "sha256": "c59418661b7cb46cc20d017e6bf38bfc67f542cac8c7d3175d01da6c4653d19b"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/028.part",
+            "bytes": 524286,
+            "sha256": "6d9e2aa765b3afbac07f30878eaf57a5375e5334ae672be2a6066df4694c16fd"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/029.part",
+            "bytes": 524286,
+            "sha256": "bc2da3aadfc3bf715b71624e23e2c8b36a4804d40602324c6b0de2c4b536517f"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/030.part",
+            "bytes": 524286,
+            "sha256": "0fe98e8826ad3bc1ac06619a71350df3c985179e9a126ac859c15a8fe3cf3098"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/031.part",
+            "bytes": 524286,
+            "sha256": "dbff92d4822031abaa98e18ff0bc18e9107716a3853716511f665cfd6e300f2e"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/032.part",
+            "bytes": 524286,
+            "sha256": "c9d6393ea76892717ae6f05fc79a7582fdd0c4a4bbc72afee12dde3005237308"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/033.part",
+            "bytes": 524286,
+            "sha256": "574026212f54cb8e046b31cba8f5c17b4e87183b8456e5ed11de3203e6d2c166"
+          },
+          {
+            "path": "assets/motion-templates/kinetic-tech-zh.motion.parts/034.part",
+            "bytes": 294812,
+            "sha256": "96a8516e2b1dff915059063e401f0b61a4ba9d91db915436673739d1e6dab9f6"
+          }
+        ],
+        "restore": "python scripts/restore_motion_template.py",
+        "reason": "GitHub connector failed to transmit the full binary; parts concatenate byte-for-byte to the original .motion"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "category": "Mixkit sound effects and derivatives",
+      "reason": "Official SFX license forbids standalone redistribution, stock, tools/templates and source-file distribution. Trimming or transcoding does not remove this restriction.",
+      "source": "https://mixkit.co/license/modal/sfxFree/"
+    },
+    {
+      "category": "Portrait alpha.5 personal .motion envelope",
+      "reason": "Contains personal credentials, personal receipts/signatures and encrypted release payload; no public redistribution grant established. Entire package excluded."
+    },
+    {
+      "category": "Jianying cache, reference-video extracted sounds and unidentified user-supplied assets",
+      "reason": "No asset-level standalone redistribution grant established."
+    },
+    {
+      "category": "Decoded WAV duplicates",
+      "reason": "Same complete HQ MP3 content with no added creative edit; omitted to avoid redundant files."
+    },
+    {
+      "category": "REJECTED-bang-784205-headcut.wav",
+      "reason": "CC0 permits redistribution but the saved quality record flags a cut head; complete source preview included instead."
+    }
+  ],
+  "verification": {
+    "copiedUnchanged": true,
+    "sourceHashRecordsChecked": true,
+    "decodeCheck": {
+      "tool": "ffmpeg -v error -xerror -i FILE -f null -",
+      "filesChecked": 13,
+      "failures": 0,
+      "fullLengthDecode": true
+    },
+    "humanListeningPerformed": false,
+    "templateRenderPerformed": false
+  }
+}

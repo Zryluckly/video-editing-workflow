@@ -1,1 +1,6 @@
 * text=auto eol=lf
+*.motion binary
+*.part binary
+*.wav binary
+*.mp3 binary
+*.png binary

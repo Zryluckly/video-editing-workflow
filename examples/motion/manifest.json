@@ -1,0 +1,28 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 30,
+  "duration_frames": 1980,
+  "card_count": 9,
+  "templates": [
+    "active_steps",
+    "chain",
+    "compare",
+    "focus",
+    "loop",
+    "network",
+    "question",
+    "steps",
+    "timeline"
+  ],
+  "files": [
+    "overlay.html",
+    "overlay.ass",
+    "preview.html",
+    "demo.json"
+  ],
+  "external_assets": [],
+  "notice": "Constructed examples are not factual claims."
+}

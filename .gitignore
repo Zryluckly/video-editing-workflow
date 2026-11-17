@@ -15,3 +15,11 @@ __pycache__/
 *.vtt
 *.ass
 .film/
+
+# Only reviewed, redistributable assets and constructed examples belong here.
+!assets/sfx/**/*.wav
+!assets/sfx/**/*.mp3
+!examples/captions/*.vtt
+!examples/captions/*.ass
+!examples/motion/*.ass
+/assets/motion-templates/kinetic-tech-zh.motion

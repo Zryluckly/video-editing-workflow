@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-11-17",
+  "sources": [
+    {
+      "sourceId": "610549",
+      "sourcePage": "https://freesound.org/people/deadrobotmusic/sounds/610549/",
+      "license": "CC0-1.0",
+      "localOfficialPageSha256": "9d249359443a8354921c9f1d11bb8f5f0a60c407ef8e8fb9634f912a4e1f1231",
+      "licenseSnapshotDate": "2026-10-31",
+      "licenseSnapshotEvidence": "Saved official page identifies this sound and links Creative Commons 0 to publicdomain/zero/1.0/.",
+      "currentCheck": "2026-11-17 official page observed CC0"
+    },
+    {
+      "sourceId": "265604",
+      "sourcePage": "https://freesound.org/people/Hard3eat/sounds/265604/",
+      "license": "CC0-1.0",
+      "localOfficialPageSha256": "23357d1e5c913d87922bf6252b8f08dfa0ad18dd2e751facbb8259a6f8fb800a",
+      "licenseSnapshotDate": "2026-10-31",
+      "licenseSnapshotEvidence": "Saved official page identifies this sound and links Creative Commons 0 to publicdomain/zero/1.0/.",
+      "currentCheck": "2026-11-17 live page unavailable after two opens; original saved official page contains the CC0 grant, title, author and source ID."
+    },
+    {
+      "sourceId": "762781",
+      "sourcePage": "https://freesound.org/people/Sess8it/sounds/762781/",
+      "license": "CC0-1.0",
+      "localOfficialPageSha256": "b227b0e9223e6fdedf77dc12db7a3202c8616d99708234f92f53eeef41d32f24",
+      "licenseSnapshotDate": "2026-10-31",
+      "licenseSnapshotEvidence": "Saved official page identifies this sound and links Creative Commons 0 to publicdomain/zero/1.0/.",
+      "currentCheck": "2026-11-17 official page observed CC0"
+    },
+    {
+      "sourceId": "401969",
+      "sourcePage": "https://freesound.org/people/misjoc/sounds/401969/",
+      "license": "CC0-1.0",
+      "localOfficialPageSha256": "ea89377f7a3e93ed75dbd17bec9d0623751f2371e01e2b718df302cc9d69b1ca",
+      "licenseSnapshotDate": "2026-10-31",
+      "licenseSnapshotEvidence": "Saved official page identifies this sound and links Creative Commons 0 to publicdomain/zero/1.0/.",
+      "currentCheck": "2026-11-17 official page observed CC0"
+    },
+    {
+      "sourceId": "784205",
+      "sourcePage": "https://freesound.org/people/modusmogulus/sounds/784205/",
+      "license": "CC0-1.0",
+      "localOfficialPageSha256": "042e22718c787307e1e402166fb453d7ecc83248a79b6f6bdf31f4d869eec731",
+      "licenseSnapshotDate": "2026-10-31",
+      "licenseSnapshotEvidence": "Saved official page identifies this sound and links Creative Commons 0 to publicdomain/zero/1.0/.",
+      "currentCheck": "2026-11-17 official page observed CC0"
+    },
+    {
+      "sourceId": "328833",
+      "sourcePage": "https://freesound.org/people/dinodilopho/sounds/328833/",
+      "license": "CC0-1.0",
+      "localOfficialPageSha256": "37cb5438bf9111ac810984ab0b610a893477b2547a7bd0e9d39d5e91f230a2eb",
+      "licenseSnapshotDate": "2026-10-31",
+      "licenseSnapshotEvidence": "Saved official page identifies this sound and links Creative Commons 0 to publicdomain/zero/1.0/.",
+      "currentCheck": "2026-11-17 official page observed CC0"
+    },
+    {
+      "sourceId": "470189",
+      "sourcePage": "https://freesound.org/people/Atrius1/sounds/470189/",
+      "license": "CC0-1.0",
+      "currentCheck": "2026-11-17 official page observed CC0",
+      "localProvenanceSha256": "78446296da3c63aaea3e3b1bb8f275337c0eda42f20b8c3403bb55538012cc5e"
+    }
+  ]
+}

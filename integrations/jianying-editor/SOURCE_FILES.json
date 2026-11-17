@@ -1,0 +1,102 @@
+{
+  "upstream": "https://github.com/luoluoluo22/jianying-editor-skill",
+  "distribution": "method-documents-only",
+  "files": [
+    {
+      "file": "upstream/METHOD.md",
+      "upstream_path": "SKILL.md",
+      "source_sha256": "a4550b4a4c0598c14847843352ed33bb30b6be92aceca5d36c6782108a3ff8aa",
+      "distributed_sha256": "b06e72eed6456ebe7de99916cdc276b42c448c6698fadf6536eb4a5a926ffdeb"
+    },
+    {
+      "file": "upstream/usage.md",
+      "upstream_path": "usage.md",
+      "source_sha256": "e511fac508110c3c6bab4894268ed9d61f1898fda8d8d915f5bfdb3d4ea9b0a8",
+      "distributed_sha256": "cf2de833541f5fd66693d93847a82c3575b29a8b4a1ce1cd7fb70e918e3f7fce"
+    },
+    {
+      "file": "upstream/rules/audio-voice.md",
+      "upstream_path": "rules/audio-voice.md",
+      "source_sha256": "cf02200c1145537fe910a9c61e7e9a841cddf43440a8b51491fe9a82b08afc4b",
+      "distributed_sha256": "bf664b9894b6309397697f0c91702e52debb57eee55bc9ffe6a991c93f86e95b"
+    },
+    {
+      "file": "upstream/rules/cli.md",
+      "upstream_path": "rules/cli.md",
+      "source_sha256": "95bdc8bdfcad7d0082baf8f6bc7be7205ccfec22ad344bbc79e512d8934146f8",
+      "distributed_sha256": "2f6750097f4a25ee139c0ee2088f6aeafa2d0d2a3113a5460f8cb4ec01223f55"
+    },
+    {
+      "file": "upstream/rules/core.md",
+      "upstream_path": "rules/core.md",
+      "source_sha256": "85968ad0fbc19e0b714130f5a3d06818ac4e13ddfd9275f916e9fed63c56e309",
+      "distributed_sha256": "5ce38d563894af784fb9d48ca3aad350b4bb995153f7e8f31f7579b738c8f56a"
+    },
+    {
+      "file": "upstream/rules/effects.md",
+      "upstream_path": "rules/effects.md",
+      "source_sha256": "507fb43a953e80a01777ffa04526e41687afd76da17b60539be1627e857434b3",
+      "distributed_sha256": "72548d843454a0dab31b677ea64e894df35f15622054a8ffe0049aedbfc46a82"
+    },
+    {
+      "file": "upstream/rules/generative.md",
+      "upstream_path": "rules/generative.md",
+      "source_sha256": "4bc408b784c9d9c65715cdda6e75f7c9a30e42b6e17261b4fb78297b57ec5dbe",
+      "distributed_sha256": "7f97905bed8532b2e03f280ab0002f90af481d0aa7aba2ddc51c196624e8a646"
+    },
+    {
+      "file": "upstream/rules/keyframes.md",
+      "upstream_path": "rules/keyframes.md",
+      "source_sha256": "6622b8c60651649bb187c019abf0155045a561762adb9e5bf005c516372ccf44",
+      "distributed_sha256": "9d8d06d886f33cfadadb5b7a2f523d15631195c10f788ab7a97afdc699a5f215"
+    },
+    {
+      "file": "upstream/rules/media.md",
+      "upstream_path": "rules/media.md",
+      "source_sha256": "a32d4c30ae3ce7c4ad1a14718d2295e5046fbc014d1700b449251155b1c1abae",
+      "distributed_sha256": "8c1459b15180c2d944433926433112c34cdfe74b6bdd874f52c15c1e90b6256e"
+    },
+    {
+      "file": "upstream/rules/recording.md",
+      "upstream_path": "rules/recording.md",
+      "source_sha256": "7fd5174b98faf582ce341392c5b5ff146e330c616b7c801dc307b7b8c03c878f",
+      "distributed_sha256": "220e3216e330106025c75dc4426c5d3dae2efdf72f46f2332898c77027415e97"
+    },
+    {
+      "file": "upstream/rules/setup.md",
+      "upstream_path": "rules/setup.md",
+      "source_sha256": "b3955634b3032128f918fa782302c3a11c2be20fa1bf14798e14c177edc21423",
+      "distributed_sha256": "5ae83caeab2360cc177332e95eeeac74b758e0bb6c5e44d85e9492dc3b88a355"
+    },
+    {
+      "file": "upstream/rules/text.md",
+      "upstream_path": "rules/text.md",
+      "source_sha256": "1f3941362267f2062eb52bd68f3bcc6554e0f36d0c11767f0948d0c88cf29aa7",
+      "distributed_sha256": "30715490a3498457328f9506a07e681564904f73e97824bfcf1b142cc1bd1c96"
+    },
+    {
+      "file": "upstream/rules/web-vfx.md",
+      "upstream_path": "rules/web-vfx.md",
+      "source_sha256": "b9e51ddd1ac4682dcc840037d4d3e1288d17e541cc89ea2bb71d0d28e9b70028",
+      "distributed_sha256": "66e2ea77186d7fde72b7fe0fe44b846087c2f8792810af7b4267dae90f5c2ddb"
+    },
+    {
+      "file": "upstream/docs/api.md",
+      "upstream_path": "docs/api.md",
+      "source_sha256": "e720a3282608e49694249ca64ab7f30f18958dcd12b57487aa2af92a0454f7c8",
+      "distributed_sha256": "091b86db841d4b3434dfc3f6529c1326742ac9a2b4b0e1251cf130319f4ec773"
+    },
+    {
+      "file": "upstream/docs/agent-playbook.md",
+      "upstream_path": "docs/agent-playbook.md",
+      "source_sha256": "6309a15e9e4eaa0a7d4af62fc339ba38935c9ad9526d4bdefecdb455054cd421",
+      "distributed_sha256": "208d62d668b402454129135073c5324e5c66607bd2ccf058e9842c8036c444bc"
+    },
+    {
+      "file": "upstream/docs/minimal-command-sop.md",
+      "upstream_path": "docs/minimal-command-sop.md",
+      "source_sha256": "ddb166d7dc91b8f7b2010a256ce5e1b293bb0897b4dd9f5e377fff4316ba4182",
+      "distributed_sha256": "44fec91e31506f9d93ad95eedd6fec1df21f907edd0f61f672ea182865aea338"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Microsoft YaHei,64,&H00FFFFFF,&H00FFFFFF,&H00222424,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 20,0:00:00.00,0:00:02.50,Caption,,0,0,0,,{\an7\bord0\shad0\1c&H161817&\1a&H35&\pos(382,1474)\p1}m 8 0 l 309 0 b 317 0 317 3 317 8 l 317 63 b 317 71 314 71 309 71 l 8 71 b 0 71 0 68 0 63 l 0 8 b 0 0 3 0 8 0
+Dialogue: 21,0:00:00.00,0:00:02.50,Caption,,0,0,0,,{\an5\pos(540,1507)}先看完整表达
+Dialogue: 20,0:00:02.50,0:00:05.00,Caption,,0,0,0,,{\an7\bord0\shad0\1c&H161817&\1a&H35&\pos(333,1442)\p1}m 8 0 l 406 0 b 414 0 414 3 414 8 l 414 127 b 414 135 411 135 406 135 l 8 135 b 0 135 0 132 0 127 l 0 8 b 0 0 3 0 8 0
+Dialogue: 21,0:00:02.50,0:00:05.00,Caption,,0,0,0,,{\an5\pos(540,1507)}字幕和画面同步\N保留必要的前后文
+Dialogue: 20,0:00:05.00,0:00:07.50,Caption,,0,0,0,,{\an7\bord0\shad0\1c&H161817&\1a&H35&\pos(309,1474)\p1}m 8 0 l 454 0 b 462 0 462 3 462 8 l 462 63 b 462 71 459 71 454 71 l 8 71 b 0 71 0 68 0 63 l 0 8 b 0 0 3 0 8 0
+Dialogue: 21,0:00:05.00,0:00:07.50,Caption,,0,0,0,,{\an5\pos(540,1507)}两轮复查气口与停顿
+Dialogue: 20,0:00:07.50,0:00:10.00,Caption,,0,0,0,,{\an7\bord0\shad0\1c&H161817&\1a&H35&\pos(333,1474)\p1}m 8 0 l 404 0 b 412 0 412 3 412 8 l 412 63 b 412 71 409 71 404 71 l 8 71 b 0 71 0 68 0 63 l 0 8 b 0 0 3 0 8 0
+Dialogue: 21,0:00:07.50,0:00:10.00,Caption,,0,0,0,,{\an5\pos(540,1507)}最后核对实际导出
