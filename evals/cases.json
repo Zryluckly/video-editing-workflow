@@ -1,0 +1,62 @@
+{
+  "schema": "speech-take-selection-eval-v1",
+  "evidenceType": "Constructed transcript cases with supplied observations, not original media or listening evidence",
+  "task": "按当前Skill选择保留内容、去掉失败重录，保留用户必留信息。每题输出caseId、keepTakeIds、keptSpokenText、reason、needsReview、audioVerified、motionVerified。可以列多个候选区间的取舍，但不要实际剪片或编造源端点。未提供媒体。",
+  "cases": [
+    {
+      "caseId": "r01",
+      "request": "这一段只保留一次完整说明，要说清楚数学课听不懂时怎么办。",
+      "takes": [
+        {"id": "r01a", "sourceSeconds": [10, 14], "spokenText": "数学课你一定要……这个……记下来。", "observations": "说话者中止这次表达，停下后重新起句。"},
+        {"id": "r01b", "sourceSeconds": [18, 24], "spokenText": "数学课没听懂的地方先记在本子上，下课直接问老师。", "observations": "整句完成，无已知口误；测试提供的记录没有发现发音或动作问题。"}
+      ]
+    },
+    {
+      "caseId": "r02",
+      "request": "同一句重录两遍，保留完整清楚且便于衔接的一遍。",
+      "takes": [
+        {"id": "r02a", "sourceSeconds": [30, 35], "spokenText": "先把数学题的原理搞明白，再做下一道。", "observations": "完整清楚，前后句和人物动作均能顺接。"},
+        {"id": "r02b", "sourceSeconds": [40, 45], "spokenText": "先把数学题的原理搞明白，再做下一道。", "observations": "文字相同，但记录显示“原理”的字头缺失，后半句有明显失真，结尾动作突然中断。"}
+      ]
+    },
+    {
+      "caseId": "r03",
+      "request": "需要保留不急着吃饭的原因以及先写二十分钟作业的安排；不保留重复结论。",
+      "takes": [
+        {"id": "r03a", "sourceSeconds": [60, 70], "spokenText": "我不着急去吃饭，因为排队会占时间。我先写二十分钟作业，再去吃饭。", "observations": "整段完整，无已知口误，语速自然。"},
+        {"id": "r03b", "sourceSeconds": [75, 80], "spokenText": "我先写二十分钟作业，再去吃饭。", "observations": "整句完整，无已知口误，语速自然。"}
+      ]
+    },
+    {
+      "caseId": "r04",
+      "request": "保留讲述者最终明确纠正后的午休安排。",
+      "takes": [
+        {"id": "r04a", "sourceSeconds": [90, 96], "spokenText": "午休三十分钟，十分钟做点简单题，剩下的时间休息。", "observations": "声音流畅，整句完成。"},
+        {"id": "r04b", "sourceSeconds": [100, 108], "spokenText": "刚才说错了，午休是四十分钟，十分钟做点简单题，剩下的时间休息。", "observations": "说话者明确纠正前一次数字；完整清楚，没有其他已知问题。"}
+      ]
+    },
+    {
+      "caseId": "r05",
+      "request": "保留自然的劝诫语气和有效内容，去掉失败重录。",
+      "takes": [
+        {"id": "r05a", "sourceSeconds": [120, 128], "spokenText": "别熬夜。真的，别熬夜。把白天的效率提起来。", "observations": "这是一次连续说完的表达，第二次“别熬夜”加重语气，未中断或重起。"}
+      ]
+    },
+    {
+      "caseId": "r06",
+      "request": "同一内容重录两遍，没有另外指定保留版本，只留一遍。",
+      "takes": [
+        {"id": "r06a", "sourceSeconds": [140, 145], "spokenText": "时间管理的关键，是留出独立思考的时间。", "observations": "完整、清楚、自然，源头尾均有安全余量；人物姿态、收音与上下句衔接条件相同。"},
+        {"id": "r06b", "sourceSeconds": [150, 155], "spokenText": "时间管理的关键，是留出独立思考的时间。", "observations": "完整、清楚、自然，源头尾均有安全余量；人物姿态、收音与上下句衔接条件相同。"}
+      ]
+    },
+    {
+      "caseId": "r07",
+      "request": "这段声音有原声和处理版，帮我判断保留哪个作后续剪辑起点，优先保证人声完整自然。",
+      "takes": [
+        {"id": "r07a", "sourceSeconds": [170, 176], "spokenText": "复盘和回归课本，比一直刷题更重要。", "observations": "原声版本：轻微稳定底噪，人声完整，无已知削波或失真。"},
+        {"id": "r07b", "sourceSeconds": [170, 176], "spokenText": "复盘和回归课本，比一直刷题更重要。", "observations": "同一段的强降噪版本：底噪更低，但记录显示人声出现水声、金属感，部分字尾被削掉。"}
+      ]
+    }
+  ]
+}

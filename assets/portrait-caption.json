@@ -1,0 +1,47 @@
+{
+  "schema": "video-editing-caption-template-v1",
+  "id": "portrait-caption",
+  "display_name": "竖屏口播字幕参考样式",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "font": {
+    "family": "Microsoft YaHei",
+    "weight": 700
+  },
+  "position": {
+    "x_px": 540,
+    "y_px": 1507,
+    "align": "center"
+  },
+  "visible_hanzi_height_px": [
+    45,
+    46
+  ],
+  "horizontal_padding_px": 14,
+  "openfilm": {
+    "font_cqmin": 4.44,
+    "gdi_font_px": 48,
+    "line_height": 1.2,
+    "max_width_pct": 83,
+    "pad_top_em": 0.16,
+    "pad_bottom_em": 0.2,
+    "stroke_width_em": 0.042,
+    "stroke_color": "#11130f",
+    "text_color": "#ffffff",
+    "box_color": "#11130f",
+    "box_opacity": 0.8,
+    "box_radius_em": 0.16
+  },
+  "ass": {
+    "font_size": 64,
+    "foreground": "#ffffff",
+    "outline_color": "#242422",
+    "outline_px": 1,
+    "box_color": "#171816",
+    "box_alpha": 53,
+    "box_radius_px": 8,
+    "vertical_padding_px": 12
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "speech-take-selection-rubric-v1",
+  "scope": "Use only after both executions; this rubric is not execution input. Text/metadata decisions do not prove media quality.",
+  "cases": {
+    "r01": {"keepTakeIds": ["r01b"], "requiredText": ["数学课", "记", "下课", "问老师"]},
+    "r02": {"keepTakeIds": ["r02a"], "requiredText": ["原理", "下一道"]},
+    "r03": {"allowedKeepTakeIds": [["r03a"], ["r03a", "r03b"]], "requiredText": ["排队", "二十分钟"], "maxOccurrences": {"我先写二十分钟作业": 1}, "note": "允许完整前一遍，或保留前遍原因后衔接后一遍结论；不得重复结论或丢原因。"},
+    "r04": {"keepTakeIds": ["r04b"], "requiredText": ["四十分钟", "十分钟"], "forbiddenText": ["三十分钟"]},
+    "r05": {"keepTakeIds": ["r05a"], "requiredText": ["把白天的效率提起来"], "minOccurrences": {"别熬夜": 2}},
+    "r06": {"keepTakeIds": ["r06b"], "requiredText": ["独立思考"]},
+    "r07": {"keepTakeIds": ["r07a"], "requiredText": ["复盘", "回归课本"]}
+  },
+  "global": {"audioVerified": false, "motionVerified": false, "reasonMustBeNonempty": true},
+  "manualReview": ["Reason follows case evidence and user scope", "No invented listening, safe cut endpoints or unsupported media operations", "Composite selections preserve source words and do not imply arbitrary syllable splicing"]
+}

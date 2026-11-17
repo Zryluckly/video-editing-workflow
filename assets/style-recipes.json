@@ -1,0 +1,23 @@
+{
+  "schema": "video-editing-style-recipes-v1",
+  "status": "Optional vibrant-poster design recipe from a past speech-led edit; not a successfully imported third-party template or a software integration",
+  "canvas_example": {"width": 1080, "height": 1920, "fps": 30},
+  "palette": {"blue": "#3152EE", "lime": "#DFFF00", "paper": "#F3F3E8", "ink": "#11130F", "white": "#FFFFFF", "dark": "#14161A"},
+  "typography": {"family_preference": "HarmonyOS Sans SC or the current confirmed Chinese project font", "availability": "Verify glyphs and rendering in the actual target runtime; a font installed in one environment may not exist in another", "roles": ["bold headline", "readable body", "high contrast captions"]},
+  "components": [
+    {"key": "chapter-progress", "purpose": "Show current topic and progress", "editable_fields": ["chapters", "palette", "font", "totalDuration"], "timing": "Final timeline timebase; use frames or seconds consistently; adapt chapter count", "motion": "Completed chapters filled, future chapters gray, active cell fills by clamp((t-start)/(end-start),0,1). A separate global progress indicator is optional.", "cell_width": "Choose for label readability, not necessarily proportional to chapter duration", "coverage": "Full edited duration when requested as persistent navigation"},
+    {"key": "opening-title", "purpose": "Concrete topic and relevant result", "editable_fields": ["title", "subtitle", "palette"], "motion": "Brief entry, readable hold, brief exit"},
+    {"key": "thesis-card", "purpose": "Present central position", "editable_fields": ["title", "subtitle", "label", "palette"], "motion": "Paper-like card, blue/lime emphasis, short reveal"},
+    {"key": "keyword", "purpose": "Emphasize a spoken key phrase", "editable_fields": ["word", "color", "font"], "motion": "Short gathering or scale-and-settle entry; hold steadily"},
+    {"key": "time-card", "purpose": "Make a spoken time or duration legible", "editable_fields": ["clock", "label", "palette"], "motion": "Compact appearance; hold across the relevant statement", "accuracy": "Do not invent a clock range from a duration or copy conflicting whiteboard times"},
+    {"key": "comparison-list", "purpose": "Present selective homework or a similar comparison", "editable_fields": ["title", "rows", "context", "palette"], "motion": "Reveal rows with speech; preserve reading time"},
+    {"key": "steps", "purpose": "Explain a short sequence", "editable_fields": ["title", "steps", "palette"], "motion": "Reveal one step per corresponding spoken beat"}
+  ],
+  "sfx_starting_points": [
+    {"key": "pop", "purpose": "Brief keyword/card accent", "observed_seconds": 0.166667, "observed_gain_db": [-16, -20]},
+    {"key": "whoosh", "purpose": "Sparse chapter or layout transition", "observed_seconds": 0.8, "observed_gain_db": [-20]}
+  ],
+  "sfx_notes": "Case observations only, not loudness standards. Check each source under speech. Keep independent editable audio items. BGM is not required by this recipe.",
+  "placement": "Derive safe regions from actual face, gestures, whiteboard, captions and platform UI; old shot coordinates are not universal.",
+  "asset_reuse": "No project IDs, fixed chapter times, source media or third-party zip are embedded. Implement with current supported editable primitives or animation components in the selected tool. This JSON is a design recipe, not a directly importable editor project."
+}
