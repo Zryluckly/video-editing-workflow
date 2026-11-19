@@ -23,7 +23,7 @@
 在 PowerShell 中可将整个仓库克隆到 Codex 的个人 Skill 目录。已安装同名 Skill 时，先将仓库克隆到其他位置查看，再决定如何接入。
 
 ```powershell
-git clone https://github.com/Zryluckly/zry.git "$env:USERPROFILE/.codex/skills/video-editing-workflow"
+git clone https://github.com/Zryluckly/video-editing-workflow.git "$env:USERPROFILE/.codex/skills/video-editing-workflow"
 ```
 
 在 Codex 里提供素材位置和交付要求，例如：
